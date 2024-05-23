@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{
+    font-family: monospace;
+}
+nav.topnav{
+    background: #0082e6;
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    margin-top: -400px;
+    
+}
+label.Logo{
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-family: 'Poppins';
+    font-weight: bold;
+}
+nav.topnav ul{
+    float: right;
+    margin-right: 100px;
+
+}
+nav.topnav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+nav.topnav ul li a:hover{
+    text-decoration: underline;
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+div.Wrapper{
+    color: black;
+}
+section{
+    text-align: center;
+}
+section.home p.hai {
+    text-align: center;
+    margin-top: 400px;
+    font-size: 50px;
+    font-family: 'Poppins';
+    font-weight: bold;
+}
+section.home p.Nama_home {
+    text-align: center;
+    margin-top: 5px;
+    font-size: 50px;
+    font-family: 'Poppins';
+    font-weight: bold;
+}
+section.home p.Sekolah_Home{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 15px;
+    font-family:'Poppins';
+    margin-bottom: 500px;
+}
+section.About{
+    height: 500px;
+    margin-bottom: 600px;
+}
+div.About{
+    text-align: center;
+    margin-top: 100px;
+    font-size: 25px;
+    margin-bottom: 600px;;
+}
+h1.Aboutme{
+    margin-bottom: 20px;
+}
+img.Rasya{
+    height: 200px;
+    margin-top: 150px;
+    margin-bottom: 60px;
+}
+
+div.Skill{
+    margin-top: 250px;
+    font-size: 25px;
+    margin-bottom: 350px;
+    
+}
+h1.h1Skill{
+    margin-bottom: 20px;
+}
+footer{
+    background-color: black;
+}
+div.footer{
+    width: 100%;
+    padding: 70px 30px 20px;
+}
+div.footer-icon{
+    display: flex;
+    justify-content: center;
+}
+div.footer-icon a{
+    padding: 10px;
+    margin: 10px;
+    background-color: white;
+    border-radius: 50%;
+}
+div.footer-icon a i{
+    color: black;
+    font-size: 1.5em;
+}
+
+.footer-nav{
+    margin: 30px 0;
+}
+.footer-nav ul{
+    display: flex;
+    justify-content: center;
+}
+.footer-nav ul li a {
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.;
+    transition: 0.5s;
+}
+.footer-bottom p{
+    color: white;
+}
